@@ -33,9 +33,9 @@ Functions
       mint(address _address, uint _value)
 
 
-              This function takes two parameters: an address and a value. The function then increases the total supply by that number and increases the balance of the                “sender” address by that amount.
+              This function takes two parameters: an address and a value. The function then increases the total supply by that number and increases the balance of the “sender” address by that amount.
 
       burn(address _address, uint _value)
 
 
-          This function takes two parameters: an address and a value. It will deduct the value from the total supply and from the balance of the “sender”. It has                 conditionals to make sure the balance of "sender" is greater than or equal to the amount that is supposed to be burned.
+          This function takes two parameters: an address and a value. It will deduct the value from the total supply and from the balance of the “sender”. It has       conditionals to make sure the balance of "sender" is greater than or equal to the amount that is supposed to be burned.
